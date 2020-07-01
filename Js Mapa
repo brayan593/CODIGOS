@@ -22,3 +22,17 @@ var marker = L.polyline([[-0.225069,-78.5168959],[-0.2537563,-78.5330725]]).addT
 var marker = L.polyline([[-0.225069,-78.5168959],[-0.355708, -78.528793]]).addTo(map);
 var marker = L.polyline([[-0.225069,-78.5168959],[ -0.257128, -78.546270]]).addTo(map);
 var marker = L.polyline([[-0.225069,-78.5168959],[-0.071850, -78.435068]]).addTo(map);
+var distance;
+var distance2;
+var distance3;
+var distance4;
+var distance5;
+var distance6;
+var distance7;
+distance = Math.sqrt(Math.pow((-0.225069) - (-0.241768),2)+Math.pow((-78.5168959)-(-78.526977),2))
+distance = Math.sqrt(Math.pow((-0.225069) - (-0.290397),2)+Math.pow((-78.5168959)-(-78.552108),2))
+distance = Math.sqrt(Math.pow((-0.225069) - (-0.2235145),2)+Math.pow((-78.5168959)-(-78.5113281 ),2))
+distance = Math.sqrt(Math.pow((-0.225069) - (-0.2537563),2)+Math.pow((-78.5168959)-(-78.5330725),2))
+distance = Math.sqrt(Math.pow((-0.225069) - (-0.355708),2)+Math.pow((-78.5168959)-(-78.528793),2))
+distance = Math.sqrt(Math.pow((-0.225069) - (-0.257128),2)+Math.pow((-78.5168959)-(-78.546270),2))
+distance = Math.sqrt(Math.pow((-0.225069) - (-0.071850),2)+Math.pow((-78.5168959)-(-78.435068),2))
